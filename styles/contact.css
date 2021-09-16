@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #141414;
+}
+
+.contact-section-container {
+  height: 660px;
+  padding: 65px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #141414;
+}
+
+@media (min-width: 960px) {
+  .contact-section-container{
+    background: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+  }
+}
+
+
+.contact-section-elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .contact-section-elements-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.contact-section-title {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #fafafa;
+}
+
+@media (min-width: 960px) {
+  .contact-section-title {
+    margin-bottom: 310px;
+    margin-right: 130px;
+  }
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+.contact-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input-name {
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: #ffffff;
+}
+
+.contact-input-title-indicator {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #fafafa;
+}
+
+.contact-input-message {
+  height: 113px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: #ffffff;
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button-send {
+  margin-top: 60px;
+  margin-left: 23px;
+  width: 300px;
+  height: 45px;
+  background-color: #2C2C2C;
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
